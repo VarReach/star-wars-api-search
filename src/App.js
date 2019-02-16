@@ -6,6 +6,8 @@ import HomeView from './components/HomeView/HomeView';
 import SearchView from './components/SearchView/SearchView'
 import FilterView from './components/FilterViews/FilterView';
 import MainNav from './components/NavViews/MainNav';
+import ErrorPage from './ErrorPage';
+import NotFoundPage from './NotFoundPage';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -54,6 +56,9 @@ export default class App extends React.Component {
                 />
               );
             })}
+            <Route
+              component={NotFoundPage}
+            />
         </Switch>
       </>
     );
@@ -65,9 +70,11 @@ export default class App extends React.Component {
         <header role="banner">
           {this.renderHeaderComponent()}
         </header>
-          <main role="main">
-            {this.renderMainComponent()}
-          </main>
+          <ErrorPage>
+            <main role="main">
+              {this.renderMainComponent()}
+            </main>
+          </ErrorPage>
       </div>
     );
   }
