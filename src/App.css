@@ -1,33 +1,65 @@
-.App {
-  text-align: center;
+body {
+    background-color: #e1e1e1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header {
+    display: flex;
+    height: 200px;
+    margin-bottom: 25px;
+    align-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2 {
+    color: #282828;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header a {
+    align-self: flex-end;
+    text-decoration: none;
+
 }
+
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: #282828;
+}
+
+header a:focus {
+    text-decoration-color: #282828;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 30px;
+}
+
+.go-back-link {
+    display: inline-block;
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.go-back-link:hover {
+    border-bottom: 1px solid #4d4d4d;
+}
+

@@ -1,0 +1,69 @@
+.filter-view__header h2 {
+    text-transform: capitalize;
+}
+
+.filter-view__model {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.filter-view__dates {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 85px;
+}
+
+.filter-view__section h3 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #282828;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.filter-view__section {
+    margin-bottom: 85px;
+}
+
+.filter-view__section p {
+    line-height: 25px;
+}
+
+.filter-view__section a {
+    display: inline-block;
+    text-transform: capitalize;
+    color: #282828;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+.filter-view__section a:hover {
+    border-bottom: 1px solid #282828;
+    padding-bottom: 0;
+}
+
+.filter-view__section ul {
+    overflow: hidden;
+}
+
+.filter-view__section ul li {
+    float: left;
+    width: 33%;
+    padding: 0 5px;
+    margin-bottom: 10px;
+} 
+
+.filter-view__go-back-link {
+    font-family: 'Montserrat', 'open sans';
+    font-size: 16px;
+    border: none;
+    background: none;
+    margin-top: 30px;
+}
+
+.filter-view__go-back-link:hover, .filter-view__go-back-link:focus {
+    outline: none;
+}

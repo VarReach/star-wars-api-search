@@ -1,0 +1,44 @@
+h2, h3 {
+    letter-spacing: 0em;
+}
+
+h2 {
+    border-bottom: 1px solid #0e0e0e;
+    padding-bottom: 10px;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.search-result__header {
+    margin-bottom: 110px;
+}
+
+.search-result__count {
+    font-weight: 600;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.search-result__item:not(:last-child) {
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.search-result__modified {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.search-result__item a {
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 28px;
+    text-decoration: none;
+    color: #282828;
+    margin: 25px 0;
+}
+
+.search-result__item a:hover {
+    border-bottom: 2px solid #282828;
+    margin: 25px 0 23px;
+}
