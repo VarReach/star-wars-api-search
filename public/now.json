@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "VarReach-star-wars-api-search",
+    "name": "star-wars-api-search",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+}
